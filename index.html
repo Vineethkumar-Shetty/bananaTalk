@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Talk</title>
+    <style>
+      #txt-area {
+        width: 80%;
+        display: block;
+        height: 20vh;
+        margin: 2rem;
+      }
+      #btn-translate {
+        margin: 0rem 2rem;
+      }
+
+    #output-text {
+        border: 1px solid black;
+        width: 80%;
+        height: 20vh;
+        margin: 2rem;
+
+    }
+    </style>
+  </head>
+  <body>
+    <textarea
+      name=""
+      id="txt-area"
+      placeholder="Please write the text here that you want to translate into banana language"
+    ></textarea>
+    <button id="btn-translate" >Translate</button>
+    <div style="font-size:large; margin: 2rem;">This is what you mean in banana language 👇</div>
+    <div id="output-text"></div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
